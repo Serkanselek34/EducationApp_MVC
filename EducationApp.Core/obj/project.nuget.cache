@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZYjCemrtZ60m5I/s6mE1PC5gnx3u1lJu8uptjab5+N/u4G2qgb8KqYFgU0LwlCqdCBvQoUrFnMUVHciPKaBb+g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\onrus\\OneDrive\\Belgeler\\OnurUstaoglu_BrightProje1\\EducationApp\\EducationApp.Core\\EducationApp.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\onrus\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\onrus\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\onrus\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

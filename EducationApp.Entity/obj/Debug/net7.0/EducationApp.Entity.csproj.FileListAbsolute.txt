@@ -1,0 +1,12 @@
+C:\Users\onrus\OneDrive\Belgeler\OnurUstaoglu_BrightProje1\EducationApp\EducationApp.Entity\bin\Debug\net7.0\EducationApp.Entity.deps.json
+C:\Users\onrus\OneDrive\Belgeler\OnurUstaoglu_BrightProje1\EducationApp\EducationApp.Entity\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\onrus\OneDrive\Belgeler\OnurUstaoglu_BrightProje1\EducationApp\EducationApp.Entity\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\onrus\OneDrive\Belgeler\OnurUstaoglu_BrightProje1\EducationApp\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.csproj.AssemblyReference.cache
+C:\Users\onrus\OneDrive\Belgeler\OnurUstaoglu_BrightProje1\EducationApp\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\onrus\OneDrive\Belgeler\OnurUstaoglu_BrightProje1\EducationApp\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.AssemblyInfoInputs.cache
+C:\Users\onrus\OneDrive\Belgeler\OnurUstaoglu_BrightProje1\EducationApp\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.AssemblyInfo.cs
+C:\Users\onrus\OneDrive\Belgeler\OnurUstaoglu_BrightProje1\EducationApp\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\onrus\OneDrive\Belgeler\OnurUstaoglu_BrightProje1\EducationApp\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\onrus\OneDrive\Belgeler\OnurUstaoglu_BrightProje1\EducationApp\EducationApp.Entity\obj\Debug\net7.0\refint\EducationApp.Entity.dll
+C:\Users\onrus\OneDrive\Belgeler\OnurUstaoglu_BrightProje1\EducationApp\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\onrus\OneDrive\Belgeler\OnurUstaoglu_BrightProje1\EducationApp\EducationApp.Entity\obj\Debug\net7.0\ref\EducationApp.Entity.dll
