@@ -122,19 +122,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\onrus\\.nuget\\packages\\": {}
+    "C:\\Users\\DopingHafiza\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\onrus\\OneDrive\\Belgeler\\OnurUstaoglu_BrightProje1\\EducationApp\\EducationApp.Core\\EducationApp.Core.csproj",
+      "projectUniqueName": "C:\\Users\\DopingHafiza\\Desktop\\Serkan_Selek_Eticaret_Projesi\\EducationApp_MVC\\EducationApp.Core\\EducationApp.Core.csproj",
       "projectName": "EducationApp.Core",
-      "projectPath": "C:\\Users\\onrus\\OneDrive\\Belgeler\\OnurUstaoglu_BrightProje1\\EducationApp\\EducationApp.Core\\EducationApp.Core.csproj",
-      "packagesPath": "C:\\Users\\onrus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\onrus\\OneDrive\\Belgeler\\OnurUstaoglu_BrightProje1\\EducationApp\\EducationApp.Core\\obj\\",
+      "projectPath": "C:\\Users\\DopingHafiza\\Desktop\\Serkan_Selek_Eticaret_Projesi\\EducationApp_MVC\\EducationApp.Core\\EducationApp.Core.csproj",
+      "packagesPath": "C:\\Users\\DopingHafiza\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DopingHafiza\\Desktop\\Serkan_Selek_Eticaret_Projesi\\EducationApp_MVC\\EducationApp.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\onrus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DopingHafiza\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
