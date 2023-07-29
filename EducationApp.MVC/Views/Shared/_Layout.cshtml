@@ -39,9 +39,40 @@
             @RenderBody()
         </main>
     </div>
-
-    <footer class="py-5 m-0 bg-dark">
-        <div class="container"><p class="mt-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+    <footer class="w-100 py-4 flex-shrink-0 bg-dark">
+        <div class="container py-4">
+            <div class="row gy-4 gx-5">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="h1 text-white">Hakkımızda</h5>
+                    <p class="small text-muted">Online eğitimler, internet üzerinden verilen eğitimlerdir. Öğrenciler, coğrafi sınırlamalardan bağımsız olarak, istedikleri yerden ve zamandan eğitim alabilirler. Online eğitimler, geniş bir konu yelpazesini kapsar ve çevrimiçi dersler, interaktif içerikler ve sanal sınıf ortamları aracılığıyla öğrencilere esnek, etkili ve erişilebilir bir öğrenme deneyimi sağlar.</p>
+                    <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved.</p>
+                </div>
+                <div class="col-lg-2 col-md-6 d-flex justify-content-center ">
+                    <ul class="navbar-nav">
+                        <li class="text-white mb-3">Sayfalar</li>
+                        <li><a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Ana Sayfa</a></li>
+                        <li><a class="nav-link text-light" asp-area="" asp-controller="Kategoriler" asp-action="Index">Kategoriler</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 ">
+                    <ul class="social d-flex justify-content-between">
+                        <li><a href="#"><i class="fa-brands fa-square-facebook fa-2xl" style="color: #ff0000;"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-instagram fa-2xl" style="color: #ff0000;"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-twitter fa-2xl" style="color: #ff0000;"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-white mb-3">Düşünceleriniz</h5>
+                    <p class="small text-muted">Düşüncelerinizi bize mesaj yoluyla iletebilirsiniz. Teşekkürler, iyi çalışmalar</p>
+                    <form action="#">
+                        <div class="input-group mb-3">
+                            <input class="form-control" type="text" placeholder="Düşünceleriniz..." aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
