@@ -122,8 +122,8 @@ namespace EducationApp.MVC.Controllers
                     //    token = code
                     //});
                     //var email = model.Email;
-                    //var subject = "BooksApp Onay Maili";
-                    //var body = $"<h1>BooksApp Onay İşlemi</h1>" +
+                    //var subject = "EducationApp Onay Maili";
+                    //var body = $"<h1>EducationApp Onay İşlemi</h1>" +
                     //    $"<p>" +
                     //    $"Lütfen üyeliğiniz onaylamak için <a href='http://localhost:5200{url}'>tıklayınız</a>." +
                     //    $"</p>";
@@ -191,8 +191,8 @@ namespace EducationApp.MVC.Controllers
                 token = code
             });
 
-            var subject = "BooksApp Şifre Sıfırlama";
-            var body = $"<h1>BooksApp Şifre Sıfırlama İşlemi</h1>" +
+            var subject = "EducationApp Şifre Sıfırlama";
+            var body = $"<h1>EducationApp Şifre Sıfırlama İşlemi</h1>" +
                 $"<p>" +
                 $"Lütfen şifrenizi değiştirmek için <a href='http://localhost:5200{url}'>tıklayınız</a>." +
                 $"</p>";

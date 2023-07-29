@@ -32,24 +32,9 @@ namespace EducationApp.MVC.Areas.Admin.Models
         public IFormFile ImageFile { get; set; }
         public string ImageUrl { get; set; }
 
-        [DisplayName("Stok")]
-        [Required(ErrorMessage = "{0} alanı boş bırakılmamalıdır.")]
-        public int Stock { get; set; } = 1;
-
         [DisplayName("Fiyat")]
         [Required(ErrorMessage = "{0} alanı boş bırakılmamalıdır.")]
         public decimal Price { get; set; } = 0;
-
-        [DisplayName("Sayfa")]
-        [Required(ErrorMessage = "{0} alanı boş bırakılmamalıdır.")]
-        public int PageCount { get; set; } = 1;
-
-        [DisplayName("Baskı")]
-        [Required(ErrorMessage = "{0} alanı boş bırakılmamalıdır.")]
-        public int EditionNumber { get; set; } = 1;
-
-        [DisplayName("Yıl")]
-        public int EditionYear { get; set; } = DateTime.Now.Year;
 
         [DisplayName("Ana Sayfa")]
         public bool IsHome { get; set; }
@@ -57,7 +42,7 @@ namespace EducationApp.MVC.Areas.Admin.Models
 
         public List<SelectListItem> YearList { get; set; }
 
-        [DisplayName("Yazar")]
+        [DisplayName("Eğitmen")]
         public List<SelectListItem> InstructorList { get; set; }
 
         [DisplayName("Kategoriler")]

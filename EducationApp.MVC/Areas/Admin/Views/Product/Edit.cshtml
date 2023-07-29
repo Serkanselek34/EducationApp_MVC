@@ -15,7 +15,7 @@
                                 <div class="col-md-12">
                                     <div class="form-floating mb-2 mb-md-0">
                                         <input asp-for="Name" class="form-control"
-                                               placeholder="Kitap adını giriniz.." />
+                                               placeholder="Eğitim adını giriniz.." />
                                         <label asp-for="Name"></label>
                                     </div>
                                     <span class="text-danger" asp-validation-for="Name"></span>
@@ -26,39 +26,12 @@
                                         <label asp-for="InstructorList"></label>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
-                                    <div class="form-floating">
-                                        <select class="form-select" asp-for="EditionYear" asp-items="@Model.YearList"></select>
-                                        <label asp-for="EditionYear"></label>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
+                                <div class="col-md-6">
                                     <div class="form-floating mb-2 mb-md-0">
                                         <input asp-for="Price" class="form-control" />
                                         <label asp-for="Price"></label>
                                     </div>
                                     <span class="text-danger" asp-validation-for="Price"></span>
-                                </div>
-                                <div class="col-md-2">
-                                    <div class="form-floating mb-2 mb-md-0">
-                                        <input asp-for="EditionNumber" class="form-control" />
-                                        <label asp-for="EditionNumber"></label>
-                                    </div>
-                                    <span class="text-danger" asp-validation-for="EditionNumber"></span>
-                                </div>
-                                <div class="col-md-2">
-                                    <div class="form-floating mb-2 mb-md-0">
-                                        <input asp-for="Stock" class="form-control" />
-                                        <label asp-for="Stock"></label>
-                                    </div>
-                                    <span class="text-danger" asp-validation-for="Stock"></span>
-                                </div>
-                                <div class="col-md-2">
-                                    <div class="form-floating mb-2 mb-md-0">
-                                        <input asp-for="PageCount" class="form-control" />
-                                        <label asp-for="PageCount"></label>
-                                    </div>
-                                    <span class="text-danger" asp-validation-for="PageCount"></span>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="">

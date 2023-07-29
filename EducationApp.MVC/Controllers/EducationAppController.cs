@@ -9,12 +9,10 @@ namespace EducationApp.MVC.Controllers
     public class EducationAppController : Controller
     {
         private readonly IProductService _productManager;
-        private readonly IInstructorService _instructorManager;
 
-        public EducationAppController(IProductService productManager, IInstructorService instructorManager)
+        public EducationAppController(IProductService productManager )
         {
             _productManager = productManager;
-            _instructorManager = instructorManager;
         }
 
         public async Task<IActionResult> ProductList(string categoryurl = null, string instructorurl = null)
@@ -54,31 +52,6 @@ namespace EducationApp.MVC.Controllers
             };
             return View(productDetailsViewModel);
         }
-        public async Task<IActionResult> InstructorList(string categoryurl = null, string instructorurl = null)
-        {
-            List<Instructor> instructorList = await _instructorManager.GetAllActiveInstructorsAsync(categoryurl, instructorurl);
-            List<InstructorViewModel> instructorViewModelList = instructorList.Select(p => new InstructorViewModel
-            {
-                Id=p.Id,
-                Name = p.FirstName + " " + p.LastName,
-                Url = p.Url,
-                ImageUrl = p.PhotoUrl
-            }).ToList();
-            return View(instructorViewModelList);
-        }
-        public async Task<IActionResult> InstructorDetails(string url)
-        {
-            Instructor instructor = await _instructorManager.GetInstructorsByUrlAsync(url);
-            InstructorDetailsViewModel instructorDetailsViewModel = new InstructorDetailsViewModel
-            {
-                Id = instructor.Id,
-                InstructorName = instructor.FirstName + " " + instructor.LastName,
-                InstructorAbout = instructor.About,
-                InstructorUrl = instructor.Url,
-                Url = instructor.Url,
-                ImageUrl= instructor.PhotoUrl
-            };
-            return View(instructorDetailsViewModel);
-        }
+
     }
 }

@@ -12,10 +12,6 @@ namespace EducationApp.MVC.Models
         public string InstructorAbout { get; set; }
         public string InstructorUrl { get; set; }
         public List<CategoryViewModel> Categories { get; set; }
-        public int EditionYear { get; set; }
-        public int EditionNumber { get; set; }
-        public int Stock { get; set; }
-        public int PageCount { get; set; }
         public string Description { get; set; }
     }
 }

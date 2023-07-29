@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "61Ld/WVv8JVQ0wjv6IFxcJE833tYpSQPc0TZwygTWiyjoyWtU46ldyI/3zRjr07i8kF17TW1Dkh0bOB/8a55PQ==",
+  "dgSpecHash": "fA5bo9bh4iarFPrORHXJSoGBbGV5So8mo40mURzNFTN1DY6COkADXBy3ci1ha2EOwJt5xeTV3fMelPMFOJIkWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DopingHafiza\\Desktop\\Serkan_Selek_Eticaret_Projesi\\EducationApp_MVC\\EducationApp.Business\\EducationApp.Business.csproj",
+  "projectFilePath": "C:\\Users\\DopingHafiza\\Documents\\GitHub\\EducationApp_MVC\\EducationApp_MVC\\EducationApp.Business\\EducationApp.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DopingHafiza\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.9\\microsoft.aspnetcore.cryptography.internal.7.0.9.nupkg.sha512",
     "C:\\Users\\DopingHafiza\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.9\\microsoft.aspnetcore.cryptography.keyderivation.7.0.9.nupkg.sha512",

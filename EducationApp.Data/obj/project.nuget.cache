@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Db2RtRh/rs52//RPpL+8XJpyo5vtXk5DFlJodsjsDAcKaymxE8kSlZ9t8QgwiV6I6dCB8ZZzqXDXoug+lLSmPw==",
+  "dgSpecHash": "T9mHvd+XGSzK+NXaTaJ+3QUHfVUoNtotBV0Bce1yQHE8Gy3MY8HQtRk6turQVwzqhi3CvAUwJbZFgaPryORpcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DopingHafiza\\Desktop\\Serkan_Selek_Eticaret_Projesi\\EducationApp_MVC\\EducationApp.Data\\EducationApp.Data.csproj",
+  "projectFilePath": "C:\\Users\\DopingHafiza\\Documents\\GitHub\\EducationApp_MVC\\EducationApp_MVC\\EducationApp.Data\\EducationApp.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DopingHafiza\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\DopingHafiza\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.9\\microsoft.aspnetcore.cryptography.internal.7.0.9.nupkg.sha512",

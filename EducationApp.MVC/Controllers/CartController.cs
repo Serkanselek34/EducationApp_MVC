@@ -111,7 +111,7 @@ namespace EducationApp.MVC.Controllers
                         ProductImageUrl = ci.Product.ImageUrl
                     }).ToList()
                 },
-                CardName = "Alex de Souza",
+                CardName = "Serkan Selek",
                 CardNumber = "5890040000000016",
                 ExpirationYear = "2028",
                 ExpirationMonth = "10",
@@ -157,8 +157,8 @@ namespace EducationApp.MVC.Controllers
         {
             #region Options
             Options options = new Options();
-            options.ApiKey = "sandbox-313Mg6w05g35vEZZXgG5dL5YW6LiUGJl";
-            options.SecretKey = "sandbox-tkue5CZOz5usUARA3DmXPQAVnbJkcXx5";
+            options.ApiKey = "sandbox-udwhPj75aQQkpFbhnrq8pvtr8JgnTKBr";
+            options.SecretKey = "sandbox-bQeFr5qfdnQSbWTPN6MsMPLg70dJd8fa";
             options.BaseUrl = "https://sandbox-api.iyzipay.com";
             #endregion
             #region Request
@@ -224,7 +224,7 @@ namespace EducationApp.MVC.Controllers
                 basketItem = new BasketItem();
                 basketItem.Id = item.CartItemId.ToString();
                 basketItem.Name = item.ProductName;
-                basketItem.Category1 = "Kitap";
+                basketItem.Category1 = "Eğitim";
                 basketItem.ItemType = BasketItemType.PHYSICAL.ToString();
                 basketItem.Price = Convert.ToInt32(item.Price * item.Quantity).ToString();
                 basketItems.Add(basketItem);

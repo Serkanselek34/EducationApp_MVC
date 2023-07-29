@@ -1450,11 +1450,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DopingHafiza\\Desktop\\Serkan_Selek_Eticaret_Projesi\\EducationApp_MVC\\EducationApp.Business\\EducationApp.Business.csproj",
+      "projectUniqueName": "C:\\Users\\DopingHafiza\\Documents\\GitHub\\EducationApp_MVC\\EducationApp_MVC\\EducationApp.Business\\EducationApp.Business.csproj",
       "projectName": "EducationApp.Business",
-      "projectPath": "C:\\Users\\DopingHafiza\\Desktop\\Serkan_Selek_Eticaret_Projesi\\EducationApp_MVC\\EducationApp.Business\\EducationApp.Business.csproj",
+      "projectPath": "C:\\Users\\DopingHafiza\\Documents\\GitHub\\EducationApp_MVC\\EducationApp_MVC\\EducationApp.Business\\EducationApp.Business.csproj",
       "packagesPath": "C:\\Users\\DopingHafiza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DopingHafiza\\Desktop\\Serkan_Selek_Eticaret_Projesi\\EducationApp_MVC\\EducationApp.Business\\obj\\",
+      "outputPath": "C:\\Users\\DopingHafiza\\Documents\\GitHub\\EducationApp_MVC\\EducationApp_MVC\\EducationApp.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DopingHafiza\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1471,11 +1471,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\DopingHafiza\\Desktop\\Serkan_Selek_Eticaret_Projesi\\EducationApp_MVC\\EducationApp.Core\\EducationApp.Core.csproj": {
-              "projectPath": "C:\\Users\\DopingHafiza\\Desktop\\Serkan_Selek_Eticaret_Projesi\\EducationApp_MVC\\EducationApp.Core\\EducationApp.Core.csproj"
+            "C:\\Users\\DopingHafiza\\Documents\\GitHub\\EducationApp_MVC\\EducationApp_MVC\\EducationApp.Core\\EducationApp.Core.csproj": {
+              "projectPath": "C:\\Users\\DopingHafiza\\Documents\\GitHub\\EducationApp_MVC\\EducationApp_MVC\\EducationApp.Core\\EducationApp.Core.csproj"
             },
-            "C:\\Users\\DopingHafiza\\Desktop\\Serkan_Selek_Eticaret_Projesi\\EducationApp_MVC\\EducationApp.Data\\EducationApp.Data.csproj": {
-              "projectPath": "C:\\Users\\DopingHafiza\\Desktop\\Serkan_Selek_Eticaret_Projesi\\EducationApp_MVC\\EducationApp.Data\\EducationApp.Data.csproj"
+            "C:\\Users\\DopingHafiza\\Documents\\GitHub\\EducationApp_MVC\\EducationApp_MVC\\EducationApp.Data\\EducationApp.Data.csproj": {
+              "projectPath": "C:\\Users\\DopingHafiza\\Documents\\GitHub\\EducationApp_MVC\\EducationApp_MVC\\EducationApp.Data\\EducationApp.Data.csproj"
             }
           }
         }

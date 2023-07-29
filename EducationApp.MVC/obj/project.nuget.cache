@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vvdHga4phOBgX/68WsWr5ZKqQRSdtRaw1+HMUoegJJkotDkwI1EgwoYA9V/fYb/VCA1qcSIlPW5+rkaCs+lKfQ==",
+  "dgSpecHash": "tyMagDPiSGwwh3A3MxnQprhSVY+EaF0gQlIS4t0SEYGiIDhwgoDos8vytX7Sw4YkMJulkKCuDSc+8D3Nhgpa4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DopingHafiza\\Desktop\\Serkan_Selek_Eticaret_Projesi\\EducationApp_MVC\\EducationApp.MVC\\EducationApp.MVC.csproj",
+  "projectFilePath": "C:\\Users\\DopingHafiza\\Documents\\GitHub\\EducationApp_MVC\\EducationApp_MVC\\EducationApp.MVC\\EducationApp.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DopingHafiza\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\aspnetcorehero.toastnotification.1.1.0.nupkg.sha512",
     "C:\\Users\\DopingHafiza\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

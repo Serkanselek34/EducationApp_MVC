@@ -1,20 +1,4 @@
-﻿@model List<InstructorViewModel>
-@{
+﻿@{
     ViewData["Title"] = "EducationApp Ana Sayfa";
 }
-<div class="row">
-    <div class="col-2">
-        @await Component.InvokeAsync("Categories")
-        @await Component.InvokeAsync("Products")
-    </div>
-    <div class="col-10">
-        <div class="row g-3">
-            @foreach (var instructorViewModel in Model)
-            {
-                <div class="col-2">
-                    @await Html.PartialAsync("_InstructorList",instructorViewModel)
-                </div>
-            }
-        </div>
-    </div>
-</div>
+

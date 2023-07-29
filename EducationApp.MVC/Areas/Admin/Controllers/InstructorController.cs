@@ -3,6 +3,7 @@ using EducationApp.Business.Abstract;
 using EducationApp.Business.Concrete;
 using EducationApp.Core;
 using EducationApp.Entity.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using EducationApp.MVC.Areas.Admin.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -10,19 +11,22 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 namespace EducationApp.MVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles ="Admin")]
     public class InstructorController : Controller
     {
         private readonly IInstructorService _instructorManager;
+        private readonly IProductService _productManager;
         private readonly INotyfService _notyf;
 
-        public InstructorController(IInstructorService instructorManager, INotyfService notyf)
-        {
-            _instructorManager = instructorManager;
-            _notyf = notyf;
-        }
+		public InstructorController(IInstructorService instructorManager, INotyfService notyf, IProductService productManager)
+		{
+			_instructorManager = instructorManager;
+			_notyf = notyf;
+			_productManager = productManager;
+		}
 
-        #region Listeleme
-        [HttpGet]
+		#region Listeleme
+		[HttpGet]
         public async Task<IActionResult> Index()
         {
             List<Instructor> instructorList = await _instructorManager.GetAllInstructorsAsync(false);
@@ -42,7 +46,7 @@ namespace EducationApp.MVC.Areas.Admin.Controllers
             return View(instructorViewModelList);
         }
         #endregion
-        #region Yeni Yazar
+        #region Yeni Eğitmen
         [HttpGet]
         public IActionResult Create()
         {
@@ -89,7 +93,7 @@ namespace EducationApp.MVC.Areas.Admin.Controllers
         }
 
         #endregion
-        #region Yazar Güncelleme
+        #region Eğitmen Güncelleme
         [HttpGet]
         public async Task<IActionResult> Edit(int id)
         {
@@ -163,7 +167,7 @@ namespace EducationApp.MVC.Areas.Admin.Controllers
             return RedirectToAction("Index");
         }
         #endregion
-        #region Yazar Kalıcı Silme
+        #region Eğitmen Kalıcı Silme
         [HttpGet]
         public async Task<IActionResult> Delete(int id)
         {
@@ -178,7 +182,6 @@ namespace EducationApp.MVC.Areas.Admin.Controllers
                 Url = instructor.Url,
                 IsActive = instructor.IsActive,
                 IsDeleted = instructor.IsDeleted,
-                IsAlive = instructor.IsDeleted,
                 CreatedDate = instructor.CreatedDate,
                 ModifiedDate = instructor.ModifiedDate
             };
@@ -193,7 +196,7 @@ namespace EducationApp.MVC.Areas.Admin.Controllers
             return RedirectToAction("Index");
         }
         #endregion
-        #region Yazar Soft Silme
+        #region Eğitmen Soft Silme
         public async Task<IActionResult> SoftDelete(int id)
         {
             Instructor instructor = await _instructorManager.GetByIdAsync(id);
@@ -206,7 +209,33 @@ namespace EducationApp.MVC.Areas.Admin.Controllers
             _instructorManager.Update(instructor);
             return RedirectToAction("Index");
         }
-        #endregion
+		#endregion
+		#region Silinmiş Eğitmenleri Listeleme
+		[HttpGet]
+		public async Task<IActionResult> DeletedIndex()
+		{
+			List<Instructor> instructorList = await _instructorManager.GetAllInstructorsAsync(true);
+			List<InstructorViewModel> instructorViewModelList = instructorList
+				.Select(a => new InstructorViewModel
+				{
+					Id = a.Id,
+					Name = a.FirstName + " " + a.LastName,
+					CreatedDate = a.CreatedDate,
+					ModifiedDate = a.ModifiedDate,
+					About = a.About,
+					IsActive = a.IsActive,
+					Url = a.Url,
+					PhotoUrl = a.PhotoUrl,
+					BirthOfYear = a.BirthOfYear
+				}).ToList();
+			InstructorListViewModel model = new InstructorListViewModel
+			{
+				InstructorViewModelList = instructorViewModelList,
+				SourceAction = "DeletedIndex"
+			};
+			return View("Index", model);
+		}
+		#endregion
 
-    }
+	}
 }

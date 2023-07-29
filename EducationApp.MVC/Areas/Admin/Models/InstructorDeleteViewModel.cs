@@ -39,10 +39,7 @@ namespace EducationApp.MVC.Areas.Admin.Models
         public bool IsActive { get; set; }
 
         public bool IsDeleted { get; set; }
-
-        public bool IsAlive { get; set; }
-
-        public string ImageUrl { get; set; } = "default-profile.jpg";
+        public string ImageUrl { get; set; } = "1.png";
 
         public List<SelectListItem> Years { get; set; }
     }

@@ -9,13 +9,13 @@ namespace EducationApp.MVC.Areas.Admin.Models
     {
         [DisplayName("Ad")]
         [Required(ErrorMessage = "{0} alanı boş bırakılamalıdır.")]
-        [MinLength(5, ErrorMessage = "{0} alanı en az {1} karakter uzunluğunda olmalıdır.")]
+        [MinLength(2, ErrorMessage = "{0} alanı en az {1} karakter uzunluğunda olmalıdır.")]
         [MaxLength(50, ErrorMessage = "{0} alanı en fazla {1} karakter uzunluğunda olmalıdır.")]
         public string FirstName { get; set; }
 
         [DisplayName("Soyad")]
         [Required(ErrorMessage = "{0} alanı boş bırakılamalıdır.")]
-        [MinLength(5, ErrorMessage = "{0} alanı en az {1} karakter uzunluğunda olmalıdır.")]
+        [MinLength(4, ErrorMessage = "{0} alanı en az {1} karakter uzunluğunda olmalıdır.")]
         [MaxLength(50, ErrorMessage = "{0} alanı en fazla {1} karakter uzunluğunda olmalıdır.")]
         public string LastName { get; set; }
 
@@ -29,10 +29,7 @@ namespace EducationApp.MVC.Areas.Admin.Models
         public string About { get; set; }
 
         public bool IsActive { get; set; }
-
-        public bool IsAlive { get; set; } = true;
-
-        public string ImageUrl { get; set; } = "default-profile.jpg";
+        public string ImageUrl { get; set; } = "1.png";
 
         public List<SelectListItem> Years { get; set; }
     }

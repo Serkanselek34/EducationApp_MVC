@@ -4,7 +4,7 @@
 @if (Model.CartItems.Count == 0)
 {
     <div class="alert alert-warning">
-        Sepetinizde ürün bulunmamaktadır.
+        Sepetinizde eğitim bulunmamaktadır.
     </div>
 }
 else
@@ -105,10 +105,6 @@ else
                 <tr>
                     <th>KDV Tutarı:</th>
                     <td class="text-end">@($"{kdv:C2}")</td>
-                </tr>
-                <tr>
-                    <th>Kargo Bedeli:</th>
-                    <td class="text-end">@($"{totalCargo:C2}")</td>
                 </tr>
                 <tr>
                     <th>Ödenecek Toplam Tutar:</th>

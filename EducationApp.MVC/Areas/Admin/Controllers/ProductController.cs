@@ -88,7 +88,7 @@ namespace EducationApp.MVC.Areas.Admin.Controllers
             return yearList;
         }
         #endregion
-        #region Yeni Kitap
+        #region Yeni Eğitim
         [HttpGet]
         public async Task<IActionResult> Create()
         {
@@ -139,7 +139,7 @@ namespace EducationApp.MVC.Areas.Admin.Controllers
         }
 
         #endregion
-        #region Kitap Güncelleme
+        #region Eğitim Güncelleme
         [HttpGet]
         public async Task<IActionResult> Edit(int id)
         {
@@ -218,7 +218,7 @@ namespace EducationApp.MVC.Areas.Admin.Controllers
             return RedirectToAction("Index");
         }
         #endregion
-        #region Kitap Kalıcı Silme
+        #region Eğitim Kalıcı Silme
         [HttpGet]
         public async Task<IActionResult> Delete(int id)
         {
@@ -244,7 +244,7 @@ namespace EducationApp.MVC.Areas.Admin.Controllers
             return RedirectToAction("Index");
         }
         #endregion"
-        #region Kitap Soft Silme
+        #region Eğitim Soft Silme
         public async Task<IActionResult> SoftDelete(int id)
         {
             Product product = await _productManager.GetByIdAsync(id);
@@ -260,7 +260,7 @@ namespace EducationApp.MVC.Areas.Admin.Controllers
             return product.IsDeleted ? RedirectToAction("Index") : RedirectToAction("DeletedIndex");
         }
         #endregion
-        #region Silinmiş Kitap Listeleme
+        #region Silinmiş Eğitim Listeleme
         public async Task<IActionResult> DeletedIndex()
         {
             List<Product> products = await _productManager.GetAllProductsWithInstructor(true);

@@ -7,7 +7,7 @@
         <a asp-area="Admin"
            asp-controller="Instructor"
            asp-action="Create"
-           class="btn btn-primary">Yeni Yazar</a>
+           class="btn btn-primary">Yeni Eğitmen</a>
     </div>
 </div>
 
@@ -20,6 +20,7 @@
                     <th>Id</th>
                     <th>Fotoğraf</th>
                     <th>Ad Soyad</th>
+                    <th>Yaş</th>
                     <th>Oluşturulma Tarihi</th>
                     <th>Son Değiştirilme Tarihi</th>
                     <th>Aktif mi?</th>
@@ -35,6 +36,7 @@
                             <img src="~/images/instructors/@instructor.PhotoUrl" width="75">
                         </td>
                         <td>@instructor.Name</td>
+                        <td>@instructor.Age()</td>
                         <td>@instructor.CreatedDate.ToShortDateString()</td>
                         <td>@instructor.ModifiedDate.ToShortDateString()</td>
                         <td>
